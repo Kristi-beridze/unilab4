@@ -1,0 +1,369 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset */
+a{
+	text-decoration: none;
+}
+
+@font-face{
+	src: url(fonts/Malayalam\ MN.ttc);
+	font-family: mal;
+}
+.you-buy{
+font-family: mal;
+font-size: 26px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 270px;
+color: black;
+margin-left: 126px;
+}
+header nav {
+	font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+	margin-top: 30px;
+	width: 90%;
+}
+.icon-user{
+	width: 16px;
+	height: 18.63px;	
+	stroke: black;
+	margin-left: 363px;
+	margin-top:6px;
+	margin-right: 126px;
+}
+header{
+ border-bottom: 1px solid black;
+ padding-bottom: 30px;
+ width: 100%;
+}
+section{
+	margin-top: 160px;
+	margin-left: 126px;
+}
+.card{
+	width: 333px;
+	height: 487px;
+	border:2px solid black;
+	padding: 11px;
+	display:inline-block;
+	align-items: center;
+}
+.title{
+	margin-left: 26px;
+	margin-bottom: 18.48px;
+	margin-right: 41px;
+	margin-top: 5px;
+}
+.description{
+	margin-left: 26px;
+	margin-right: 24px;
+	margin-bottom: 22px;
+}
+.first{
+	margin-left: 105px;
+}
+.second{
+	margin-left:104px ;
+}
+.third{
+	margin-left: 104px;
+	margin-right: 104px;
+}
+img{
+	width: 100%;
+}
+.see-more{
+	margin-top: 60px;
+	margin-left: 224px;
+}
+.contact{
+	color:#7D0000 ;
+	width: 222px;
+	height: 60px;
+	margin-left: 609px;
+	margin-top: 270px;
+	font-family: 'Andada Pro', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+.contact2{
+	color:  black;
+    margin-top: 102px;
+	margin-left: 206px;
+	font-family: Open Sans;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: 34px;
+	letter-spacing: 0.03em;
+	text-align: left;
+}
+.enter-container{
+	position:absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	height: 57px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: black;
+margin-top: 68px;
+
+	}
+.container2{
+	margin-left: 231px;
+	display: inline-block;
+}
+.container3{
+    margin-left:211px ;
+	display: inline-block;
+}
+.container4{
+    margin-left: 185px;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+	.popular{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+    margin-top: 159px;
+    margin-left: 618px;
+    font-size: 24px;
+	}
+	.more-product{
+		margin-left: 1378px;
+	}
+    .clock-12{
+		margin-left: 526px;
+		font-family: Open Sans;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: 34px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	margin-top: 80px;
+	}
+	.contactus1{
+		display:flex;
+		align-items: center;
+		}
+		.map{
+			margin-left: 466px;
+			margin-top: 150px;
+			width: 908px;
+			height: 423px;
+		}
+		.atc{
+			margin-left: 517px;
+			color:#7D0000 ;
+			width: 426px;
+			height: 60px;
+			margin-left: 609px;
+			margin-top: 270px;
+			font-family: 'Andada Pro', serif;
+			font-size: 40px;
+			margin-top: 270px;
+		}
+		.text2{
+			margin-top: 117px;
+			margin-left:175px;
+			color:  black;
+			font-family: Open Sans;
+			font-size: 25px;
+			font-weight: 600;
+			line-height: 41px;
+			letter-spacing: 0.03em;
+			text-align: left;
+			width: 775px;
+			display: inline-block;
+		}
+		.address12{
+			color:  black;
+			font-family: Open Sans;
+			font-size: 25px;
+			font-style: italic;
+			font-weight: 400;
+			line-height: 34px;
+			letter-spacing: 0.03em;
+			text-align: left;
+			margin-top: 208px;
+			margin-left: 575px;
+			display: inline-block;
+		}
+		.hanger1{
+		position: absolute;
+        width: 500px;
+        height: 333.33px;
+		margin-left: 200px;
+		margin-top: 150px;
+        }
+		.news{
+			font-family: 'Andada Pro', serif;
+            font-size: 24px;
+            font-weight: 600;
+           line-height: 29px;
+          letter-spacing: 0em;
+         text-align: left;
+		 margin-left: 94px;
+      }
+	  .blog-beauty{
+		font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+		color: black;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		margin-right: 445px;
+		margin-left: 445px;
+		margin-top:93px;
+		padding-bottom: 108px;
+		
+	  }
+	  .cosmetic1{
+		width: 308px;
+        height: 308px;
+		margin-left: 251px;
+	  }
+	  .new1{
+		background-color:#E5EBE5 ;
+		width: 918px;
+		height: 300px;
+		margin-left: 22px;
+        display:inline-block;
+		vertical-align: top;
+	  }
+	.summer{
+		font-family: 'Andada Pro', serif;
+		margin-left: 36px;
+		padding-top: 38px;
+		padding-bottom: 46px;
+		font-weight: 600;
+		font-size: 18px;
+        line-height: 22px;
+	}
+	.huge-text{
+		margin-left: 36px;
+		margin-right: 32px;
+	}
+	.img1{
+		display:inline-block;
+		vertical-align: top;
+	}
+
+	.read1{
+		margin-left:300px;
+		margin-top:250px;
+		position: absolute;
+        width: 174px;
+        height: 40px;
+        left: 1168px;
+        top: 588px;
+        border: 1px solid #000000;
+       border-radius: 4px;
+	}
+	
+	.cosmetic2{
+		width: 354px;
+        height: 354px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.new2{
+		background-color:#E5EBE5 ;
+		width: 918px;
+		height: 300px;
+		margin-left: 22px;
+        display:inline-block;
+		vertical-align: top;
+	}
+	.card-blog{
+		padding-top: 217px;
+		margin-left: 247px;
+	}
+	.huge-text2{
+		margin-left: 36px;
+		margin-right: 32px;
+	}
+	.summer2{
+		font-family: 'Andada Pro', serif;
+		margin-left: 36px;
+		padding-top: 38px;
+		padding-bottom: 46px;
+		font-weight: 600;
+		font-size: 18px;
+        line-height: 22px;
+	}
+	.read2{
+		margin-left:320px;
+		margin-top:780px;
+		position: absolute;
+        width: 174px;
+        height: 40px;
+        left: 1168px;
+        top: 588px;
+        border: 1px solid #000000;
+       border-radius: 4px;
+	}
